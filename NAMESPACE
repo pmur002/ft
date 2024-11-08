@@ -1,0 +1,6 @@
+
+useDynLib(ft,
+          C_test)
+
+export("test")
+
