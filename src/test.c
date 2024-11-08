@@ -1,11 +1,7 @@
 
-#include <R.h>
-#include <Rinternals.h>
+#include "test.h"
 
-#include <ft2build.h>
-#include FT_FREETYPE_H
-
-SEXP C_test(SEXP font, SEXP index) {
+SEXP test(SEXP font, SEXP index) {
     FT_Library  library;
     FT_Face     face; 
     int err;

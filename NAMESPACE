@@ -1,6 +1,5 @@
 
-useDynLib(ft,
-          C_test)
+useDynLib(ft, .registration=TRUE, .fixes="C_")
 
 export("test")
 
