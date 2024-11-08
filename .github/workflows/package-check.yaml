@@ -20,5 +20,5 @@ jobs:
         with:
           debian-deps: libfreetype-dev
           macos-deps: freetype
-          # Assuming freetype part of Tomas' Rtools on Windows
+          windows-deps: freetype
           check-flags: --as-cran
