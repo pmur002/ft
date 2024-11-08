@@ -5,6 +5,7 @@ Version: 0.1-0
 Authors@R: person("Paul", "Murrell", email = "paul@stat.auckland.ac.nz",
                   role = c("aut", "cre"))
 Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
-Description: Test package with C code that calls FreeType
+Description: A test package with C code that calls FreeType.
+Depends: R (>= 4.2)
 SystemRequirements: freetype2
 License: GPL-3
